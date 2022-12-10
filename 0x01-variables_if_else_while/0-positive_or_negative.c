@@ -5,7 +5,7 @@
 /**
  * main will allocate a certain number to int n
  * it excutes and print
- * Return: (0) equals succes
+ * Return: Always 0 (Success)
  */
 
 int main(void)
@@ -16,10 +16,10 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 
 	if (n > 0)
-		printf("n is positive = %d\n", n);
+		printf(" %d is positive\n", n);
 	else if (n == 0)
-		printf("n is zero = %d\n", n);
+		printf(" %d is zero\n", n);
 	else if (n < 0)
-		printf("n is negative = %d\n", n);
+		printf(" %d is negative\n", n);
 	return (0);
 }
